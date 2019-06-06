@@ -1,0 +1,264 @@
+*{
+font-family: 'Arial';
+}
+.clearfix { clear: bot  ; }
+.container{
+  width: 100%;
+  margin: 0 0;
+  padding: 10px 0;
+}
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 30px;
+}
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+/* .icon{
+  background: url(images/magnifier.png) no-repeat center;
+  background-size: 100% 100%;
+  height: 25px;
+  width: 25px;
+  padding: 7px 0;
+} */
+
+.header{
+  min-height: 100%;
+  min-width: 1024px;
+  background: url(images/city-scape.svg) ;
+  color:white;
+}
+.header a{
+  text-decoration: none;
+  color:white;
+}
+.search-bar{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 25px;
+}
+.logo-image{
+  display: inline-block;
+  margin: 0 0 0 10px;
+  height: 25px;
+  width: 6.5%;
+  float:left;
+}
+.logo-image img{
+  width: 100%;
+  height: 25px;
+}
+.search-form-button{
+  background-color: rgb(32, 101, 136);
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  width: 80%;
+  float:left;
+}
+.search-form-button input{
+  background-color: rgb(31, 82, 111);
+  display: inline-block;
+  margin: 0 5px;
+  padding: 0px;
+  height: 25px;
+  width: 93%;
+  border-style: none;
+}
+.search-form-button button{
+  background-color: rgb(31, 82, 111);
+  display: inline-block;
+  margin:0;
+  padding: 0px;
+  width: 5%;
+  height: 25px;
+  color: white;
+  border-style: none;
+}
+.search-top-links{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 10%;
+  height: 25px;
+  float:left;
+}
+.sign{
+  display: inline-block;
+  list-style-type: none;
+  height: 25px;
+  width: 70%;
+  font-size: 10px;
+  margin: 5px 0 0 0;
+  float:left;
+}
+.sign-bear{
+  display: inline-block;
+  height: 25px;
+  width: auto;
+}
+.bear-image{
+  display: inline-block;
+  margin: 0;
+  height: 25px;
+  width: 100%;
+  float:right;
+}
+.bear-image img{
+  display: inline-block;
+  margin: 0;
+  height: 25px;
+  width: auto;
+}
+
+
+/* div2 building abaixo */
+.building{
+  width: 50%;
+  margin: 0 auto;
+}
+.sign-up-btn{
+background-color: rgb(240, 146, 51);
+border-radius: 20px;
+border: none;
+color: white;
+height: 25px;
+}
+/* Collab section abaixo */
+#learn{
+  background-color: rgb(39, 53, 71);
+  height: 250px;
+}
+.learning{
+  width: 70%;
+  margin: 0 auto;
+  color:white;
+  height: 100%;
+}
+.learning a{
+  text-decoration: none;
+  font-weight: bold; 
+  color:white;
+}
+.collab-img{
+  float:left;
+  margin: 10px 5% 10px 0;
+  width: 40%;
+}
+.collab-img img{
+  width: 100%;
+  margin: 10% auto;
+}
+.sign-orgs{
+  background-color: rgb(203, 56, 55);
+  border-radius: 20px;
+  border: none;
+  color: white;
+  height: 25px;
+  margin: 10px auto 0 20px;
+  width:auto;
+}
+.h2-collab{
+  display: inline-block;
+  float: right;
+  margin: 5% 3% auto auto;
+  width: 50%;
+}
+.right-side-info{
+  display: inline-block;
+  float:right;
+  width: 50%;
+  padding: 0;
+  margin: auto;
+}
+.right-side-info li{
+  margin-top: 10px;
+  width: 100%;
+  padding: 0;
+  font-size: 15px;
+}
+.break-line{
+  display: inline-block;
+  margin:0 0 0 20px;
+  width: 40%;
+}
+/* Install section abaixo */
+#install{
+  background-image: url(images/forklift.svg);
+  background-size: cover;
+  min-height: 100%;
+  min-width: 1024px;
+  height: 250px;
+  color:white;
+}
+.install-btn{
+  background-color: rgb(49, 68, 88);
+  border-radius: 20px;
+  border: none;
+  color: white;
+  height: 30px;
+  margin: 10px auto 0 10%;
+  width: 10%;
+}
+.install-info{
+  margin: 20px auto 20px 10%;
+}
+.install-info h3{
+  font-size: 30px;
+  margin:0;
+}
+.install-info p{
+  width:31%;
+}
+/* Misc section abaixo */
+.center-misc-heading{
+  width: 50%;
+  margin: 0 auto;
+  color: rgb(83, 88, 98);
+  background-color: white;
+}
+.center-misc-heading p{
+  color: rgb(135, 145, 156);
+}
+.center-misc-article{
+  width: 100%;
+  margin: 0 auto;
+}
+.center-misc-article a{
+  text-decoration: none;
+  color: rgb(208, 74, 73);
+}
+.center-misc-article h3{
+  text-align: center;
+  margin: 0;
+}
+.center-misc-article img{
+  margin-left: 30%;
+}
+.center-misc-article p{
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0;
+  color: rgb(135, 145, 156);
+}
+.col-3{
+  display: inline-block;
+  width: 30%;
+  margin-left: 3%;
+}
+
